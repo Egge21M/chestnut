@@ -1,0 +1,27 @@
+{
+  "name": "chestnut",
+  "version": "0.1.0",
+  "description": "A tiny server to store your nuts in",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Egge",
+  "license": "MIT",
+  "dependencies": {
+    "@cashu/cashu-ts": "^1.1.0",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.5",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.7.4",
+    "dotenv": "^16.4.5",
+    "esbuild": "^0.24.0",
+    "nodemon": "^3.1.7",
+    "typescript": "^5.6.2"
+  }
+}
